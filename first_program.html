@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Program</title>
+</head>
+<body>
+    
+    <h2>Personal information</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+    <div>
+        <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <label for="email"> Email</label>
+    <div>
+         <input type="text" name="myEmail" id="email">
+    </div>
+    <br>
+    <label for="dob"> DOB</label>
+    <div>
+        <input type="date" name="myDate" id="dob"> 
+    </div>
+    <br>
+    <div>
+        <label for="gender"> Gender:</label>
+         Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender" id="gender">
+    </div>
+    <br>
+    <div>
+        Write about yourself: <br><textarea name="mytext" cols="30" rows="10"> </textarea> 
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </div>
+    </form>
+    
+</body>
+</html>
